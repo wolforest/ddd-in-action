@@ -1,18 +1,37 @@
 # Compiled class file
 *.class
+target/
+crhttp/
+testhttp/
+.bak/
 
 # Log file
 *.log
 
+# ide
+.idea/
+*.iml
+.DS_Store
+*.classpath
+*.project
+*.settings
+*.factorypath
+.vscode/
+*.ipr
+*.iws
 # BlueJ files
 *.ctxt
 
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
 
-.idea
+#cert
+*.jks
+*.crt
+
 
 # Package Files #
+
 *.jar
 *.war
 *.nar
@@ -21,5 +40,12 @@
 *.tar.gz
 *.rar
 
+
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+dump.rdb
+
+#profiles
+#application-*.yml
+
+business/pay/pay-biz/src/main/java/study/daydayup/wolf/business/pay/biz/channel/india/yesbank/upi/util/SignUtilTestC3F8029CCFEA4E5082365932DBAE11B5.java
