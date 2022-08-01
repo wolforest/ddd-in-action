@@ -1,4 +1,4 @@
 package study.daydayup.ddd.demo.business.pay.api.payment.event;
 
-public class AttemptCreateEvent {
+public class AttemptCreationEvent {
 }
