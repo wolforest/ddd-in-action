@@ -21,6 +21,8 @@
         <module>app</module>
         <module>business</module>
         <module>domain</module>
+        <module>agent</module>
+
     </modules>
 
 
