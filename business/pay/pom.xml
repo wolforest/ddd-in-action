@@ -11,9 +11,23 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>pay</artifactId>
+    <modules>
+        <module>pay-private-api</module>
+        <module>pay-biz</module>
+    </modules>
     <groupId>study.daydayup.ddd.demo.business</groupId>
     <version>1.0.0-SNAPSHOT</version>
     <packaging>pom</packaging>
 
 
+    <dependencies>
+        <dependency>
+            <groupId>study.daydayup.wolf.boot</groupId>
+            <artifactId>wolf-boot-starter</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+        </dependency>
+    </dependencies>
 </project>

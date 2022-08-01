@@ -22,6 +22,7 @@
         <module>business</module>
         <module>domain</module>
         <module>agent</module>
+        <module>lib</module>
 
     </modules>
 

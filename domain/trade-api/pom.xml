@@ -15,4 +15,14 @@
     <version>1.0.0-SNAPSHOT</version>
 
 
+    <dependencies>
+        <dependency>
+            <groupId>study.daydayup.wolf.boot</groupId>
+            <artifactId>wolf-boot-starter</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+        </dependency>
+    </dependencies>
 </project>
