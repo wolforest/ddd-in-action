@@ -18,6 +18,7 @@
     <modules>
         <module>goods-private-api</module>
         <module>goods-biz</module>
+        <module>goods-deploy</module>
     </modules>
 
 </project>
