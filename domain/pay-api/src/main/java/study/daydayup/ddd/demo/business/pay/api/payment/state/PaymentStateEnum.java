@@ -10,7 +10,7 @@ public enum PaymentStateEnum implements CodeBasedEnum {
     SUCCESS(100, "SUCCESS"),
 
     PENDING(20, "PENDING"),
-    WAIT_TO_PAY(10, "PENDING"),
+    WAIT_TO_PAY(10, "WAIT_TO_PAY"),
     ;
 
     private final int code;
