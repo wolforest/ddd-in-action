@@ -14,6 +14,8 @@
     <modules>
         <module>pay-private-api</module>
         <module>pay-biz</module>
+        <module>pay-deploy</module>
+        <module>pay-test</module>
     </modules>
     <groupId>study.daydayup.ddd.demo.business</groupId>
     <version>1.0.0-SNAPSHOT</version>

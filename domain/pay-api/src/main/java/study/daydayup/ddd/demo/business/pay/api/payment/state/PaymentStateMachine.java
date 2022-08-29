@@ -6,6 +6,7 @@ import study.daydayup.wolf.common.sm.impl.DefaultStateGraph;
 public class PaymentStateMachine {
     public static StateGraph<PaymentStateEnum, PaymentEventEnum> create() {
         return new DefaultStateGraph<PaymentStateEnum, PaymentEventEnum>(PaymentStateEnum.WAIT_TO_PAY)
+
                 .addTransition(PaymentStateEnum.WAIT_TO_PAY, PaymentStateEnum.PENDING, PaymentEventEnum.PAY)
 
                 .addTransition(PaymentStateEnum.PENDING, PaymentStateEnum.FAILURE, PaymentEventEnum.FAIL)
